@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CoffeeMachine;
 
-class DrinkMaker
+final class DrinkMaker
 {
     public static function execute($command): void
     {
